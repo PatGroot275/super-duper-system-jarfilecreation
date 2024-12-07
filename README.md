@@ -18,7 +18,7 @@ This will help create a .jar file for your project provided that you follow the 
 - Your code **will not work** when being ran/debugged with this change but this is necessary for the .jar file creation
 - Feel free to look through the example provided I've provided for the location/contents of the manifest file, where the images/dependencies should be and how the filepaths should look
 
-# Directions:
+# Directions to run the action:
 - Create a fork of this repository by clicking the 'Fork' button in the upper right-hand corner, this will create your own copy of this repository. You will make your edits in this new repository, not this one
 - Delete the PhotoViewerAssignment directory
 - Upload your project, use the Github website's uploader, command line (instructions below) or visual studio code
