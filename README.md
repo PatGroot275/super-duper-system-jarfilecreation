@@ -27,7 +27,7 @@ This will help create a .jar file for your project provided that you follow the 
 - Navigate to the "Actions" tab in Github
 - Click on "Build JAR File" and run the workflow, watch for if it is successful or not
 - If successful, you will find your new Jar file in the folder "JARFiles", it will replace the old myproject.jar
-- If not successful, **check your filepaths, dependencies, and modifications to the main.yml folder again**, if still not successful, follow directions under bug reporting. 
+- If not successful, **check your filepaths, dependencies, and modifications to the main.yml again, and try to rerun**, if still not successful, follow the directions under the bug reporting section. 
 
 # Modifications to main.yml
 - Follow these directions after uploading your project
