@@ -3,7 +3,7 @@
 This will help create a .jar file for your project provided that you follow the directions PRECISELY
 
 # Reminders:
-- ### **Since you will be forking the repository, it will be PUBLIC**
+- ### **Since you will be forking the repository (making your own copy), it will be PUBLIC**
 - ### **Do not put your name or any identifying information in your code at all**
 - ### **Do not put any api keys, passwords or anything of similar type in your code at all**
 
@@ -19,7 +19,7 @@ This will help create a .jar file for your project provided that you follow the 
 - Feel free to look through the example provided I've provided for the location/contents of the manifest file, where the images/dependencies should be and how the filepaths should look
 
 # Directions:
-- Create a fork of this repository by clicking the 'Fork' button in the upper right-hand corner
+- Create a fork of this repository by clicking the 'Fork' button in the upper right-hand corner, this will create your own copy of this repository. You will make your edits in this new repository, not this one
 - Delete the PhotoViewerAssignment directory
 - Upload your project, use the Github website's uploader, command line (instructions below) or visual studio code
 - Complete the "**Modifications to main.yml section**", before moving on
