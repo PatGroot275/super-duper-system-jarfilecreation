@@ -53,49 +53,27 @@ This will help create a .jar file for your project provided that you follow the 
 # New Example Structure:
 ### TO VIEW THE EXAMPLE STRUCTURE PROPERLY, CLICK EDIT AND VIEW THIS IN THE EDITOR
 super-duper-system-jarfilecreation-main/
-
 ├── .github/
-
 │   └── workflows/
-
 │       └── main.yml
-
 ├── 10-16-2024-PhotoViewerAssignment/
-
 │   ├── .gitignore
-
 │   ├── .idea/
-
 │   │   ├── .gitignore
-
 │   │   ├── misc.xml
-
 │   │   ├── modules.xml
-
 │   │   └─] workspace.xml (ignored)
-
 │   ├── 10-16-2024 PhotoViewierAssignment.iml
-
 │   ├── manifest.txt
-
 │   └── src/
-
 │       ├── images/
-
 │       │   ├── image1.png
-
 │       │   ├── image2.png
-
 │       │   └── image3.png
-
 │       └── Main.java
-
 ├── JARFiles/
-
 │   ├── myproject.jar
-
 │   └── placeholder.txt
-
 └── README.md
 
 
