@@ -27,7 +27,7 @@ jobs:
       - name: Build JAR
         run: |
           # Navigate to the assignment directory
-          cd 10-16-2024\ PhotoViewierAssignment
+          cd 10-16-2024-PhotoViewerAssignment
 
           # Create 'out' directory for compiled classes
           mkdir -p out
