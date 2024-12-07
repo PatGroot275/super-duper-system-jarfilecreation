@@ -11,7 +11,8 @@ This will help create a .jar file for your project provided that you follow the 
 - Ensure you have a Main.java file
 - Ensure you have a manifest.txt file in the root of your directory that has the content "Main-Class: Main\n" (\n means a new line, not literally '\n' written)
 - Place all your dependencies (.csv, .png, .jpg, etc.) in properly named folders **within** your src folder
-- To refer to your dependencies, you should be currently using: "new ImageIcon("src\\images\\image1.png")" (The images and image1.png are part of the example)
+- You should have a "Images" folder for images, do not leave any depenedncies outside a folder in src, you could even create a "dependencies" folder in src and put everything in there
+- To refer to your dependencies, you should be currently using: "new ImageIcon("src\\\images\\\image1.png")" (The images and image1.png are part of the example and will be replaced with your "src\\\\[FOLDER NAME]\\\\[FILE NAME]")
 - Change this to: "new ImageIcon(Main.class.getResource("/src/images/image1.png"))"
 - "Main.class.getResource" should be the only syntax you use across all classes/files, you shouldn't have to change it to "[NAME OF YOUR CLASS].class.getResource"
 - Your code **will not work** when being ran/debugged with this change but this is necessary for the .jar file creation
@@ -21,7 +22,7 @@ This will help create a .jar file for your project provided that you follow the 
 - Create a fork of this repository by clicking the 'Fork' button in the upper right-hand corner
 - Delete the PhotoViewerAssignment directory
 - Upload your project, use the Github website's uploader, command line (instructions below) or visual studio code
-- Complete the "Modifications to main.yml section", before moving on
+- Complete the "**Modifications to main.yml section**", before moving on
 - Double check that your structure is similar to the example structure and you've followed the directions in setting up your code
 - Navigate to the "Actions" tab in Github
 - Click on "Build JAR File" and run the workflow, watch for if it is successful or not
@@ -42,38 +43,15 @@ This will help create a .jar file for your project provided that you follow the 
 - For failures in running, click on the "Build JAR File" run instance that failed for you
 - You will be in the summary tab (look at the left side of your screen), click on the "build" tab (under the Jobs section)
 - Click on the settings icon on the right side of your screen
-- Click "view raw logs"
+- Click "view raw logs" (check screenshot below)
 - Copy the content
 - Open a new issue in the **ORIGINAL REPOSITORY**, title it "Failure to build" and paste the logs into the content
 - I will try to get back to you with a solution or follow-ups
+![Wheretofindlogs](https://github.com/user-attachments/assets/020a9407-26ad-41d8-a3e7-11aa80e90cb7)
+
 
 # Uploading with the command line
 - ...
 
 # New Example Structure:
-### TO VIEW THE EXAMPLE STRUCTURE PROPERLY, CLICK EDIT AND VIEW THIS IN THE EDITOR
-super-duper-system-jarfilecreation-main/
-├── .github/
-│   └── workflows/
-│       └── main.yml
-├── 10-16-2024-PhotoViewerAssignment/
-│   ├── .gitignore
-│   ├── .idea/
-│   │   ├── .gitignore
-│   │   ├── misc.xml
-│   │   ├── modules.xml
-│   │   └─] workspace.xml (ignored)
-│   ├── 10-16-2024 PhotoViewierAssignment.iml
-│   ├── manifest.txt
-│   └── src/
-│       ├── images/
-│       │   ├── image1.png
-│       │   ├── image2.png
-│       │   └── image3.png
-│       └── Main.java
-├── JARFiles/
-│   ├── myproject.jar
-│   └── placeholder.txt
-└── README.md
-
-
+![File Structure](https://github.com/user-attachments/assets/13c90e71-ed55-43c6-8221-badf88978c48)
