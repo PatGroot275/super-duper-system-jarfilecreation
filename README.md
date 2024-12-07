@@ -34,8 +34,8 @@ This will help create a .jar file for your project provided that you follow the 
 - Navigate to the main.yml file in .github/workflows/
 - Edit line 30 from "cd 10-16-2024-PhotoViewerAssignment" to "cd [YOUR PROJECT NAME]"
 - You will need to repeat lines 39-40 **for each dependency folder you have** like "Card images" or "Chip images" (The example only has one dependency folder so it's only lines 39-40)
-- Edit line 39 from "mkdir -p out/src/images" to "mkdir -p out/src/[DEPENDENCY FOLDER NAME]"
-- Edit line 40 from "cp -r src/images/* out/src/images/" to "cp -r src/[DEPENDENCY FOLDER NAME]/* out/src/[DEPENDENCY FOLDER NAME]/"
+- Edit line 39 from "mkdir -p out/src/images" to "mkdir -p out/src/[YOUR DEPENDENCY FOLDER NAME]"
+- Edit line 40 from "cp -r src/images/* out/src/images/" to "cp -r src/[YOUR DEPENDENCY FOLDER NAME]/* out/src/[YOUR DEPENDENCY FOLDER NAME]/"
 - Do the above two things for **each dependency folder you have**
 
 # Bug reporting
