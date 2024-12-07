@@ -53,5 +53,5 @@ This will help create a .jar file for your project provided that you follow the 
 # Uploading with the command line
 - ...
 
-# New Example Structure:
+# Example Structure:
 ![File Structure](https://github.com/user-attachments/assets/13c90e71-ed55-43c6-8221-badf88978c48)
