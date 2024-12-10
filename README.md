@@ -13,7 +13,7 @@ This will help create a .jar file for your project provided that you follow the 
 - Place all your dependencies (.csv, .png, .jpg, etc.) in properly named folders **within** your src folder
 - You should have a "Images" folder for images, do not leave any depenedncies outside a folder in src, you could even create a "dependencies" folder in src and put everything in there
 - To refer to your dependencies, you should be currently using: "new ImageIcon("src\\\images\\\image1.png")" (The images and image1.png are part of the example and will be replaced with your "src\\\\[FOLDER NAME]\\\\[FILE NAME]")
-- Change this to: "new ImageIcon(Main.class.getResource("/src/images/image1.png"))"
+- Change this to: "new ImageIcon(Main.class.getResource("images/image1.png"))"
 - "Main.class.getResource" should be the only syntax you use across all classes/files, you shouldn't have to change it to "[NAME OF YOUR CLASS].class.getResource"
 - Your code **will not work** when being ran/debugged with this change but this is necessary for the .jar file creation
 - Feel free to look through the example provided I've provided for the location/contents of the manifest file, where the images/dependencies should be and how the filepaths should look
