@@ -27,7 +27,7 @@ jobs:
       - name: Build JAR
         run: |
           # Navigate to the assignment directory
-          cd 10-16-2024-PhotoViewerAssignment
+          cd BlackJackProjectXHelp
 
           # Create 'out' directory for compiled classes
           mkdir -p out
@@ -36,9 +36,13 @@ jobs:
           javac -d out src/*.java
 
           # Copy images into the 'out' directory
-          mkdir -p out/src/images
+          mkdir -p out/src/CardImages
           cp -r src/images/* out/src/images/
-
+          mkdir -p out/src/ChipImages
+          cp -r src/images/* out/src/images/
+          mkdir -p out/src/CSVS
+          cp -r src/CSVs/* out/src/CSVs/
+          
           # Package the compiled files and resources into a JAR
           jar cvfm myproject.jar manifest.txt -C out .
 
