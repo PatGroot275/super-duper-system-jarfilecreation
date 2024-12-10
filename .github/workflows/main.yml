@@ -27,7 +27,7 @@ jobs:
       - name: Build JAR
         run: |
           # Navigate to the assignment directory
-          cd BlackJackProjectXHelp
+          cd bjp
 
           # Create 'out' directory for compiled classes
           mkdir -p out
